@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Converter</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Case Converter</h2>
+        <textarea id="inputText" placeholder="Enter text..."></textarea>
+        <button onclick="convertText('sentence')">Sentence Case</button>
+        <button onclick="convertText('lower')">lower case</button>
+        <button onclick="convertText('upper')">UPPER CASE</button>
+        <button onclick="convertText('alternating')">aLtErNaTiNg cAsE</button>
+        <button onclick="convertText('title')">Title Case</button>
+        <textarea id="outputText" placeholder="Converted text will appear here..." readonly></textarea>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
